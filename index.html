@@ -592,8 +592,8 @@
         <script src="https://telegram.org/js/telegram-web-app.js"></script>
         <script>
             let tg = window.Telegram.WebApp;
-            let btn = document.getElementByClassName('btn');
-            let order = document.getElementByClassName('order');
+            let btn = document.getElementsByClassName('btn');
+            let order = document.getElementsByClassName('order');
 
             btn.addEventListener('click', () =>{
                 document.getElementsByClassName('Main').style.display = 'none';
