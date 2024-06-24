@@ -595,10 +595,10 @@
         </form>
         <script>
             let tg = window.Telegram.WebApp;
-            let buy = document.getElementById('buy');
+            let btn = document.getElementByClassName('btn');
             let order = document.getElementById('order');
 
-            buy.addEventListener('click', () =>{
+            btn.addEventListener('click', () =>{
                 document.getElementById('Main').style.display = 'none';
                 document.getElementById('catalogue').style.display = 'none';
                 document.getElementById('form').style.display = 'block';
