@@ -592,13 +592,13 @@
         <script src="https://telegram.org/js/telegram-web-app.js"></script>
         <script>
             let tg = window.Telegram.WebApp;
-            let btn = document.getElementsByClassName('button');
+            let btn = document.getElementsByClassName('btn');
             let order = document.getElementsByClassName('order');
 
             btn.addEventListener('click', () =>{
-                document.getElementsByClassName('Main').style.display = 'none';
-                document.getElementsByClassName('content').style.display = 'none';
-                document.getElementsByClassName('catalogue').style.display = 'none';
+                document.getElementsByClassName("Main").style.display = 'none';
+                document.getElementsByClassName("content").style.display = 'none';
+                document.getElementsByClassName("catalogue").style.display = 'none';
                 document.getElementById('form').style.display = 'block';
                 document.getElementById('user_name').value = tg.initDataUnsafe.user.first_name + ' ' +tg.initDataUnsafe.user.last_name;
             });
