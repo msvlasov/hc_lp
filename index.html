@@ -213,7 +213,7 @@
                 background: var(--tg-theme-bg-color);
             }       
             .btn:hover{
-                background: var(--tg-theme-bg-color);
+                background: #FFD700;
             }
             .input{
                 width: 90%;
@@ -225,7 +225,7 @@
                 border-radius: 5px;
             }
             .input:focus{
-                border-color: #db5d5d;
+                border-color: #FFD700;
             }
         </style>
         <link rel="icon" href="фавикон.svg">
@@ -587,21 +587,22 @@
                 </div>
             </div>
         </div>
-        <form id = 'form'>
+        <form class = 'form'>
             <input type = 'text' placeholder="Имя" id = 'user_name'>
             <input type = 'text' placeholder="Email" id = 'user_email'>
             <input type = 'text' placeholder="Телефон" id = 'user_phone'>
-            <button id = 'order'>Оформить</button>
+            <button class = 'order'>Оформить</button>
         </form>
         <script>
             let tg = window.Telegram.WebApp;
             let btn = document.getElementByClassName('btn');
-            let order = document.getElementById('order');
+            let order = document.getElementByClassName('order');
 
             btn.addEventListener('click', () =>{
-                document.getElementById('Main').style.display = 'none';
-                document.getElementById('catalogue').style.display = 'none';
-                document.getElementById('form').style.display = 'block';
+                document.getElementByClassName('Main').style.display = 'none';
+                document.getElementByClassName('content').style.display = 'none';
+                document.getElementByClassName('catalogue').style.display = 'none';
+                document.getElementByClassName('form').style.display = 'block';
                 document.getElementById('user_name').value = tg.initDataUnsafe.user.first_name + ' ' +tg.initDataUnsafe.user.last_name;
             });
             order.addEventListener('click', () =>{
