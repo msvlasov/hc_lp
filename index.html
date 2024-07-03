@@ -774,21 +774,83 @@
                     border-top-right-radius: 25px;
                     margin-left: 5%;
                     margin-right: 5%;
-                    display: flex;
-                    height: 8vh;
-                    justify-content: center;
-                    align-items: center;
-                    background: linear-gradient(45deg, #1E90FF, #030117);
+                    /* height: 8vh; */
+                    background: linear-gradient(100deg, #f8a403, #030117);
                     z-index: 1000;
-                }
-                
-                .footer_link{
-                    text-decoration: none;
-                    display: block;
                     color: #F5F5F5;
                 }
-                .footer_link:hover{
-                    color: #f8a403;
+                
+                .footerrow {
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: flex-start;
+                    justify-content: space-between;
+                }
+                
+                .footercol {
+                    flex-basis: 25%;
+                    padding: 5%;
+                }
+                
+                .footercol h3 {
+                    width: fit-content;
+                    position: relative;
+                    margin-bottom: 10%;
+                }
+                
+                .footerform {
+                    padding-bottom: 5%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    border-bottom: 2px solid #F5F5F5;
+                    margin-bottom: 10%;
+                }
+                
+                .footerform .fa-regular {
+                    font-size: 2rem;
+                    margin-right: 5%;
+                }
+                
+                .footerform input {
+                    width: 100%;
+                    background: transparent;
+                    color: #F5F5F5;
+                    border: 0;
+                    outline: none;
+                }
+                
+                .footerform button {
+                    background: transparent;
+                    border: 0;
+                    outline: none;
+                    cursor: pointer;
+                }
+                
+                .footerform button .bx {
+                    font-size: 2rem;
+                    color: #F5F5F5;
+                }
+                
+                .footericons .fa-brands{
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    text-align: center;
+                    line-height: 40px;
+                    font-size: 40px;
+                    cursor: pointer;
+                }
+                
+                hr {
+                    width: 90%;
+                    margin-left: 5%;
+                    border-bottom: 2px solid #F5F5F5;
+                }
+                
+                .copyright {
+                    text-align: center;
                 }
         </style>
     </head>
@@ -1128,177 +1190,6 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="product">
-                            <div class="image">
-                                <img src="" width="250" height="250" alt="">
-                            </div>
-                            <div class="info">
-                                <h6 class="sleeve">Лонгслив "Elementa"</h6>
-                                <ul class="rating">
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                </ul>
-                                <div class="subinfo">
-                                    <span class="price">2500<small>₽</small></span>
-                                    <button class="add-to-cart"><i class="fa-solid fa-basket-shopping"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product">
-                            <div class="image">
-                                <img src="" width="250" height="250" alt="">
-                            </div>
-                            <div class="info">
-                                <h6 class="sleeve">Лонгслив "Elementa"</h6>
-                                <ul class="rating">
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                </ul>
-                                <div class="subinfo">
-                                    <span class="price">2500<small>₽</small></span>
-                                    <button class="add-to-cart"><i class="fa-solid fa-basket-shopping"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product">
-                            <div class="image">
-                                <img src="" width="250" height="250" alt="">
-                            </div>
-                            <div class="info">
-                                <h6 class="sleeve">Лонгслив "Elementa"</h6>
-                                <ul class="rating">
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                </ul>
-                                <div class="subinfo">
-                                    <span class="price">2500<small>₽</small></span>
-                                    <button class="add-to-cart"><i class="fa-solid fa-basket-shopping"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product">
-                            <div class="image">
-                                <img src="" width="250" height="250" alt="">
-                            </div>
-                            <div class="info">
-                                <h6 class="sleeve">Лонгслив "Elementa"</h6>
-                                <ul class="rating">
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                </ul>
-                                <div class="subinfo">
-                                    <span class="price">2500<small>₽</small></span>
-                                    <button class="add-to-cart"><i class="fa-solid fa-basket-shopping"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product">
-                            <div class="image">
-                                <img src="" width="250" height="250" alt="">
-                            </div>
-                            <div class="info">
-                                <h6 class="sleeve">Лонгслив "Elementa"</h6>
-                                <ul class="rating">
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                </ul>
-                                <div class="subinfo">
-                                    <span class="price">2500<small>₽</small></span>
-                                    <button class="add-to-cart"><i class="fa-solid fa-basket-shopping"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product">
-                            <div class="image">
-                                <img src="" width="250" height="250" alt="">
-                            </div>
-                            <div class="info">
-                                <h6 class="sleeve">Лонгслив "Elementa"</h6>
-                                <ul class="rating">
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                </ul>
-                                <div class="subinfo">
-                                    <span class="price">2500<small>₽</small></span>
-                                    <button class="add-to-cart"><i class="fa-solid fa-basket-shopping"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product">
-                            <div class="image">
-                                <img src="" width="250" height="250" alt="">
-                            </div>
-                            <div class="info">
-                                <h6 class="t-shirt">Футболка "Listen To Me"</h6>
-                                <ul class="rating">
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star-half-stroke"></i></li>
-                                    <li><i class="fa-regular fa-star"></i></li>
-                                    <li><i class="fa-regular fa-star"></i></li>
-                                </ul>   
-                                <div class="subinfo">
-                                    <span class="price">3000<small>₽</small></span>
-                                    <button class="add-to-cart"><i class="fa-solid fa-basket-shopping"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product">
-                            <div class="image">
-                                <img src="" width="250" height="250" alt="">
-                            </div>
-                            <div class="info">
-                                <h6 class="t-shirt">Футболка "Listen To Me"</h6>
-                                <ul class="rating">
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star-half-stroke"></i></li>
-                                    <li><i class="fa-regular fa-star"></i></li>
-                                    <li><i class="fa-regular fa-star"></i></li>
-                                </ul>   
-                                <div class="subinfo">
-                                    <span class="price">3000<small>₽</small></span>
-                                    <button class="add-to-cart"><i class="fa-solid fa-basket-shopping"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product">
-                            <div class="image">
-                                <img src="" width="250" height="250" alt="">
-                            </div>
-                            <div class="info">
-                                <h6>Стикеры №1</h6>
-                                <ul class="rating">
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                </ul>  
-                                <div class="subinfo">
-                                    <a href="https://t.me/addstickers/cmplt_mdnss" class="price_stickers">Бесплатно</a>
-                                    <button class="add-to-cart"><i class="fa-solid fa-basket-shopping"></i></button>
-                                </div> 
-                            </div>
-                        </div>         
                     </div>
                 </div>
             </div>
@@ -1354,17 +1245,34 @@
 
     </main>
 
-        <section id="contacts">
-            <footer class="footer">
-                <div class="container">
-                    <a href="https://vk.com/hellcat_brand" class="footer_link">VK</a>
-                    <a href="index.html" class="footer_link">HellCat</a>
-                    <p>HellCat brand, est. 21.01.21</p>
-                    <span class="footericon"><i class="fa-solid fa-basket-shopping"></i></span>
-                    <span class="footericon"><i class="fa-solid fa-file"></i></span>
-                    <span class="footericon"><i class="fa-solid fa-globe"></i></span>
-            </footer>
-        </section>
+    <section id="contacts">
+        <footer class="footer">
+            <div class="footerrow">
+                <div class="footercol">
+                    <img src="png/лого-ХК-горизонтальное.svg" class="footerlogo">
+                </div>
+                <div class="footercol">
+                    <h3>КОНТАКТЫ</h3>
+                    <p>ИНН: 1234567890000</p>
+                    <p>Email: cmpltmdnss@gmail.com</p>
+                </div>
+                <div class="footercol">
+                    <h3>ПОДПИСАТЬСЯ</h3>
+                    <form class= "footerform">
+                        <i class="fa-regular fa-envelope-open"></i>
+                        <input type="f-emailform" placeholder="Введите вашу почту" required>
+                        <button class="submit"><i class='bx bx-right-arrow-alt'></i></button>
+                    </form>
+                    <div class="footericons">
+                        <a href="https://vk.com/hellcat_brand"><i class="fa-brands fa-vk"></i></a>
+                        <a href="https://t.me/hellcat_brandbot"><i class="fa-brands fa-telegram"></i></a>
+                    </div>
+                </div>  
+            </div>
+            <hr>
+            <p class="copyright"> HellCat Brand Ⓒ 2024 - All Rights Reserved</p>  
+        </footer>
+    </section>
 </body>
 
 </html>
